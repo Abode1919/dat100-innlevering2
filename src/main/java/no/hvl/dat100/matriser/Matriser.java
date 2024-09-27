@@ -39,7 +39,7 @@ public class Matriser {
 	// d)
 	public static boolean erLik(int[][] a, int[][] b) {
 		if (a.length != b.length) {
-            return false;  // If row count differs
+            return false;  
         }
 		for (int i = 0; i < a.length; i++) {
             if (a[i].length != b[i].length) {
